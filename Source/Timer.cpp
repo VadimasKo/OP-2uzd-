@@ -25,8 +25,3 @@ double Timer::giveDuration(){
     return duration.count();
 }
 
-int main(){
-    Timer time;
-    time.printRes(1,"Strat1");
-    time.printRes(0,"Strat1");
-}

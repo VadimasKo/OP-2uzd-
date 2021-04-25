@@ -35,6 +35,12 @@ Student::Student(std::string fName, std::string lName){
     this->finalAvrg = 0;
     this->finalMed = 0;
 }
+Student::Student(){
+    this->fName = "";
+    this->lName = "";
+    this->finalAvrg = 0;
+    this->finalMed = 0;
+}
 
 Student Student::operator=(const Student& other){
     this->fName = other.fName;

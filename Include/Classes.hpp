@@ -18,6 +18,7 @@ class Student : public Person {
         double finalAvrg;
         double finalMed;
     public:
+        Student();
         Student(std::string fName, std::string lName);
         Student(const Student &other);  //copy constructor
         // ~Student(){};                  //destructor

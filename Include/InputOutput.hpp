@@ -27,7 +27,6 @@ void readData(T &students, std::string fileName){
     catch(const std::exception &e){
         exit(1);
     }
-    std::cout<<"read";
     std::string line;
     getline(fileStream, line); //getting rid of first line
     
