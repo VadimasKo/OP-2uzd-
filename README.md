@@ -84,27 +84,7 @@ struct 1 000 000
 3. programos paleidimas :   ./my_program arba ./my_program input.txt 
 
 ## Pokyciu logas
-#### v0.1 pokyciai
-- x
-- x
-#### v0.2 pokyciai
-- x
-- x
-#### v0.3 pokyciai
-- x
-- x
-#### v0.4 pokyciai
-- programos file'ai surusioti i skirtingus aplankalus
-- Patobulintas random generavimas
-- rezultatai pateikiami i  islaike.txt (galutinis(vid) >= 5) ir  skolininkai.txt (galutinis(vid) <5)
-- programa pateikia ivairiu jos daliu darbo laika
-#### v0.5 pokyciai
-- optimizuota duomenu kurimo funkcija
-- pridetos sort funkcijos naudojancios stl deque ir stl list konteinerius
-- patobulintas "user interface"
-- atsikratyta nereikalingu file'u
-#### v1.0
-- sukurta Timer klase patogesniam laiko matavymui
-- SortToFile funkcija suskaidyta ir generalizuota
-- Pridetos 2 papildomos sort strategijos
-- Pakeistas UI kad matyti skirtumus tarp strategiju ir konteineriu pasirinkimu
+#### v1.5
+- Realizuota 3 taisykle
+- Student klase suskaidyta i Person ir Student
+- Student klase badaryta virtualiaja 
