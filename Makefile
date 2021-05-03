@@ -8,3 +8,6 @@ Main.o:
 	cd Source && g++ -c Main.cpp && mv Main.o ../ProjectFiles/Main.o
 Timer.o:
 	cd Source && g++ -c Timer.cpp && mv Timer.o ../ProjectFiles/Timer.o
+Unpack:
+	mkdir Results && mkdir ProjectFiles
+	 
