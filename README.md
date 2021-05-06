@@ -78,13 +78,16 @@ struct 1 000 000
 2. Komandinėje eilutėje įvykdykite sekančius veiksmus:
 ```shell
   cd nuoroda_į_programos_aplanką
-
+  make unpack
   make
 ```
-3. programos paleidimas :   ./my_program arba ./my_program input.txt 
+3. programos paleidimas :   ./my_program
 
 ## Pokyciu logas
 #### v1.5
 - Realizuota 3 taisykle
 - Student klase suskaidyta i Person ir Student
 - Student klase badaryta virtualiaja 
+#### v2.0
+- Sukurti keli Unit testai
+- Prideta Doxygen dokumentacija
